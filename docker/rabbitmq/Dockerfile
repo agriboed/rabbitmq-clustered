@@ -1,4 +1,4 @@
-FROM rabbitmq:3.8.5
+FROM rabbitmq:3.9.13
 
 COPY ./conf/rabbitmq.conf /etc/rabbitmq/
 COPY conf/advanced.conf /etc/rabbitmq/
